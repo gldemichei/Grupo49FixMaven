@@ -12,7 +12,7 @@ import org.apache.commons.csv.CSVPrinter;
 import org.apache.commons.csv.CSVRecord;
 
 public class PersistenciaVeiculos {
-    private static final String SAMPLE_CSV_FILE_PATH = System.getProperty("user.dir")+"\\Grupo49FixMaven\\resources\\veiculos.dat";
+    private static final String SAMPLE_CSV_FILE_PATH = System.getProperty("user.dir")+"\\resources\\veiculos.dat";
 
     public void carregaVeiculos()throws IOException{
         try (
