@@ -39,9 +39,4 @@ public class Veiculo implements Iterable<Veiculo> {
         return veiculos.iterator();
     }
 
-    // public String getCategoriaStr(){
-    //     return categoriaVeiculo.toString();
-    // }
-
-
 }
