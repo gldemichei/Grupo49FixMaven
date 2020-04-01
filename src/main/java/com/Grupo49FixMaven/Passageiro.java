@@ -5,6 +5,8 @@ public class Passageiro {
     private String nome;
     private String nCartao;
     private FormaPagto formaPagto;
+    public static ArrayList<Passageiro> passageiro = new ArrayList<>();
+
 
     public Passageiro(String cpf, String nome, String nCartao, FormaPagto formaPagto) {
         this.cpf = cpf;

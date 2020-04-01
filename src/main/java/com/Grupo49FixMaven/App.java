@@ -9,6 +9,11 @@ public class App {
         PersistenciaVeiculos pv = new PersistenciaVeiculos();
         pv.carregaVeiculos();
         pv.persisteVeiculos();
-
+        PersistenciaPassageiros pp = new PersistenciaPassageiros();
+        pp.carregaPassageiros();
+        pp.persisteMotoristas();
+        PersistenciaMotoristas pm = new PersistenciaMotoristas();
+        pm.carregaMotoristas();
+        pm.persisteMotorista();
     }
 }

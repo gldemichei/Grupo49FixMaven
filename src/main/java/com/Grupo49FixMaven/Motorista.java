@@ -6,12 +6,13 @@ public class Motorista {
     private String nome;
     private Veiculo veiculo;
     private FormaPagto formaPagto;
+    public static ArrayList<Motorista> motoristas = new ArrayList<>();
 
-    public Motorista(String cpf, String nome, Veiculo veiculo, FormaPagto formaPagto) {
+    public Motorista(String cpf, String nome, Veiculo veiculo, String formaPagto) {
         this.cpf = cpf;
         this.nome = nome;
         this.veiculo = veiculo;
-        this.formaPagto = formaPagto;
+        this.formaPagto = FormaPagto.valueof(formaPagto);
     }
 
     public String getCpf() {
