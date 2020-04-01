@@ -39,11 +39,4 @@ public class PersistenciaVeiculos {
             }
         }
         }
-        /*
-        FileWriter file = new FileWriter("veiculosTO.dat");
-        for (Veiculo v : Veiculo.veiculos){
-            file.write(v.getPlaca()+","+v.getMarca()+","+v.getCor()+","+v.getCategoria()+"\n");
-        }
-        file.close();
-        */
     }
