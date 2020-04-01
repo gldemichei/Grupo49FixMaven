@@ -15,5 +15,6 @@ public class App {
         PersistenciaMotoristas pm = new PersistenciaMotoristas();
         pm.carregaMotoristas();
         pm.persisteMotorista();
+        System.out.println("Pull Request - Lucca");
     }
 }
