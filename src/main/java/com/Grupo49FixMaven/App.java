@@ -16,6 +16,7 @@ public class App {
         pm.carregaMotoristas();
         pm.persisteMotorista();
         System.out.println("Pull Request - Lucca");
+        
         System.out.println("Pull Request - Nicolas");
         
     }
